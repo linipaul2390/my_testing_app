@@ -3,5 +3,14 @@ var myApp = angular.module("myModule",[]);
   $scope.message = "Hai how are you!!";
 };*/
 myApp.controller("MyController",function($scope){
-  $scope.message = "Hai how are you!!";
+  var employee = {
+    firstName:"Lini",
+    lastName:"Paul",
+    gender:"Female",
+    country:"India",
+    state:"Kerala",
+    city:"Kannur"
+  };
+
+  $scope.employee = employee;
 });
