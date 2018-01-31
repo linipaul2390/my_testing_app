@@ -1,4 +1,7 @@
 var myApp = angular.module("myModule",[]);
-var MyController = function($scope){
+/*var MyController = function($scope){
   $scope.message = "Hai how are you!!";
-}
+};*/
+myApp.controller("MyController",function($scope){
+  $scope.message = "Hai how are you!!";
+});
