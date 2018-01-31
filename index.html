@@ -5,18 +5,17 @@
   <script src="scripts/scripts.js"></script>
 </head>
 <body>
-  <div ng-controller="MyController">
-<p>First Name:{{employee.firstName}}</p>
-<p>Last Name:{{employee.lastName}}</p>
-<p>Gender:{{employee.gender}}</p>
-<p>Country:{{employee.country}}</p>
-<p>State:{{employee.state}}</p>
-<p>City:{{employee.city}}</p>
-
-  </div>
+<div ng-controller="MyController">
+<p>First Name:{{person.firstName}}</p>
+<p>Last Name:{{person.lastName}}</p>
+<p>Gender:{{person.gender}}</p>
+<div>
+    <img ng-src="{{person.proPic}}" style="height:200px;width:200px;"/>
+</div>
+</div>
   <div>
-    
-  <img src="images/image.jpg" style="height:200px;width:200px;"/>
+
+
 
   </div>
 </body>

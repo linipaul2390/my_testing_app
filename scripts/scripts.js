@@ -1,15 +1,13 @@
 var myApp = angular.module("myModule",[])
 .controller("MyController",function($scope){
-  var employee = {
+  var person = {
     firstName:"Lini",
     lastName:"Paul",
     gender:"Female",
-    country:"India",
-    state:"Kerala",
-    city:"Kannur"
+    proPic:"images/image.jpg"
   };
 
-  $scope.employee = employee;
+  $scope.person = person;
 });
 /*var MyController = function($scope){
   $scope.message = "Hai how are you!!";
